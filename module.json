@@ -1,0 +1,30 @@
+{
+  "id": "polyglot-sf2e",
+  "title": "Polyglot - SF2e support",
+  "description": "This module adds polyglot support for the SF2e system",
+  "version": "0.1.0",
+  "manifest": "https://raw.githubusercontent.com/Valerionn/polyglot-sf2e/main/module.json",
+  "download": "https://github.com/Valerionn/polyglot-sf2e/archive/refs/tags/v0.1.0.zip",
+  "url": "https://github.com/Valerionn/polyglot-sf2e",
+  "license": "./LICENSE",
+  "readme": "./README",
+  "bugs": "https://github.com/Valerionn/polyglot-sf2e/issues",
+  "changelog": "https://github.com/Valerionn/polyglot-sf2e/blob/main/CHANGELOG.md",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "esmodules": [
+    "scripts/index.js"
+  ],
+  "relationships": {
+    "systems": [{
+      "id": "sf2e",
+      "type": "system"
+    }],
+    "requires": [{
+      "id": "polyglot",
+      "type": "module"
+    }]
+  }
+}
