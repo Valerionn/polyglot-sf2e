@@ -10,6 +10,11 @@
   "readme": "./README",
   "bugs": "https://github.com/Valerionn/polyglot-sf2e/issues",
   "changelog": "https://github.com/Valerionn/polyglot-sf2e/blob/main/CHANGELOG.md",
+  "authors": [
+    {
+      "name": "Cyprian"
+    }
+  ],
   "compatibility": {
     "minimum": "12",
     "verified": "13"
@@ -18,13 +23,17 @@
     "scripts/index.js"
   ],
   "relationships": {
-    "systems": [{
-      "id": "sf2e",
-      "type": "system"
-    }],
-    "requires": [{
-      "id": "polyglot",
-      "type": "module"
-    }]
+    "systems": [
+      {
+        "id": "sf2e",
+        "type": "system"
+      }
+    ],
+    "requires": [
+      {
+        "id": "polyglot",
+        "type": "module"
+      }
+    ]
   }
 }
